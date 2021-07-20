@@ -2,11 +2,9 @@ import React,{ useState , useEffect } from "react";
 
 const api_search={
   base: 'https://api.themoviedb.org/3/search/movie',
-  key: '3be0cc54660ae3d1e2796710f99cdf9b'
+  key: ''
 }
 const image_api='https://image.tmdb.org/t/p/w200'
-
-//https://api.themoviedb.org/3/search/movie?api_key=3be0cc54660ae3d1e2796710f99cdf9b&query=Inception
 
 
 function App() {
