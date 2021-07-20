@@ -1,0 +1,89 @@
+.app{
+  background-color: #22378b;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+  min-height: 100vh;
+  font-family: 'Courier New';
+  color: white;
+}
+
+.search-bar{
+  display:block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  margin-top:  -25px;
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+  box-shadow: 0px 5px rgba(0,0,0,0.2);
+}
+
+.searched-movie {
+  width: 300px;
+}
+
+.inception{
+  width: 300px;
+  margin: 25px;
+  float: left;
+}
+.inception-title{
+  text-align: center;
+}
+.inception-poster{
+  text-align: center;
+}
+
+.interstellar{
+  width: 300px;
+  margin: 25px;
+  float: left;
+}
+
+.interstellar-title{
+  text-align: center;
+}
+
+.interstellar-poster{
+  text-align: center;
+}
+
+.searched-movie{
+  width: 300px;
+  margin: 25px;
+}
+
+.searched-title{
+  text-align: center;
+}
+
+.searched-poster{
+  text-align: center;
+}
+
+.inception-vote{
+  margin-bottom: 10px;
+}
+.inception-overview{
+  margin-bottom: 10px;
+}
+.interstellar-vote{
+  margin-bottom: 10px;
+}
+.interstellar-overview{
+  margin-bottom: 10px;
+}
+.searched-vote{
+  margin-bottom: 10px;
+
+}
+.searched-overview{
+  margin-bottom: 10px;
+}
